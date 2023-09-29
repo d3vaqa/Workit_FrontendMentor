@@ -1,0 +1,65 @@
+/* Reset css0 */
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+/* Container Style */
+
+.container{
+    margin: 0 auto;
+    width: 1440px;
+    background-color:#FCF8FF;
+}
+
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    margin-top: 56px;
+    
+}
+
+
+.menu li{
+    font-size: 18px;
+    font-family: manrope;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu .menu__logo{
+    color: #FCF8FF;
+
+}
