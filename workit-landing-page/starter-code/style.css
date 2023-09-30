@@ -1,65 +1,166 @@
-/* Reset css0 */
-
-html {
-    box-sizing: border-box;
-    font-size: 16px;
-  }
-  
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-    margin: 0;
-    padding: 0;
-    font-weight: normal;
-  }
-  
-  ol, ul {
-    list-style: none;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-
-/* Container Style */
-
-.container{
-    margin: 0 auto;
-    width: 1440px;
-    background-color:#FCF8FF;
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-.menu{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: red;
-    margin-top: 56px;
-    
+/* Set a base font size and font family */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
-
-.menu li{
-    font-size: 18px;
-    font-family: manrope;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 32px;
-    letter-spacing: -0.18px;
-
+/* Style the header */
+.header {
+  background-color: #f8f8f8;
+  padding: 20px 0;
+  text-align: center;
 }
 
-.menu li a{
-    text-decoration: none;
-    color: #fff;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
 }
 
-.menu .menu__logo{
-    color: #FCF8FF;
+.logo-container img {
+  width: 100px; /* Adjust the logo size as needed */
+}
 
+.nav-btn {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the hero section */
+.hero-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hero-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero-title span {
+  color: #007BFF;
+}
+
+.hero-btn {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the feature section */
+.features-section {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+.features-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.feature {
+  flex-basis: calc(33.33% - 20px); /* Adjust the width of each feature box */
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.feature-number {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.feature-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.feature-text {
+  font-size: 16px;
+  color: #777;
+}
+
+/* Style the author section */
+.author-section {
+  background-color: #f8f8f8;
+  padding: 40px 0;
+}
+
+.author-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.author-img-container img {
+  width: 200px; /* Adjust the author image size as needed */
+  border-radius: 50%;
+}
+
+.author-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.author-text {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.author-btn {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.author-info-img {
+  width: 100px; /* Adjust the author info image size as needed */
+}
+
+/* Style the footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.logo-container img {
+  width: 100px; /* Adjust the logo size as needed */
+  margin-bottom: 10px;
+}
+
+.social-icon {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-icon img {
+  width: 24px; /* Adjust the social icon size as needed */
 }
